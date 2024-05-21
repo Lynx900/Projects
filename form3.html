@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM 3</title>
+</head>
+<body>
+  <div class="form-container">
+        <div class="user-icon">
+            <div class="head"></div>
+            <div class="body"></div>
+        </div>
+
+       <form action="">
+            <div class="input-field">
+                <label for="fname">
+                        First name:
+                </label>
+                <input type="text" id="fname" required>
+            </div>
+            <div class="input-field">
+                <label for="lname">
+                       Last name:
+                </label>
+                <input type="text" id="lname" required>
+                </div>
+                
+                <div class="input-field">
+                    <label for="course-select">
+                           select your course:
+                    </label>
+                    <select id=" course-select">
+                        <option value="web-dev">
+                            Web Development
+                        </option>
+                        <option value="graph">
+                            Graphics Design
+                        </option>
+                        <option value="ui-ux">
+                            UI / UX
+                        </option>
+                    </select>
+                    </div>
+
+                    <div class="input-field">
+                        <fieldset>
+                            <legend>Gender:</legend>
+
+                            <label for="male">
+                                male
+                                <input type="radio"
+                                name="gender" id="male">
+                            </label>
+                            <label for="female">
+                                female
+                                <input type="radio"
+                                name="gender" id="female">
+                            </label>
+                        </fieldset>
+
+                    </div>
+                    
+                    <button>Submit</button>
+
+       </form>
+
+        </div>
+    </form>
+</body>
+</html>
